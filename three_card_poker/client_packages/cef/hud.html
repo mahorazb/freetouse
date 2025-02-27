@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/hud_new.css">
+    <link rel="stylesheet" href="fonts/notify.css">
+    <link rel="stylesheet" href="css/noty.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/new-fonts.css" />
+</head>
+<body>
+
+    <div id="safezone">
+        <div class="inGameHud" v-if="show">
+
+			<div class="bonus">
+				<div class="bonus-bar" v-if="!bonusblock">
+					<i @click="showbonus()" class="fa fa-gift" aria-hidden="true"></i>
+				</div>
+				<div class="bonus-block" v-else>
+					<header>
+						<span>Вы получите бонус через:</span>
+						<i @click="showbonus()" aria-hidden="true" class="fa fa-times"></i>
+					</header>
+					<div class="main">
+						<p>
+							{{lastbonus}}
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="fortune" v-if="fortuneActive">
+                <div class="fortune-box fortune-box_long" v-if="fortuneToggle">
+                    <div class="fortune__arrow fortune__arrow_hide" @click="toggleFortune(0)"></div>
+                    <div class="fortune__title">До прокрутки Колеса удачи</div>
+                    <div class="fortune__time">
+                        <div class="fortune__time-text">{{fortuneHour}} ч. {{fortuneMin}} мин.</div>
+                    </div>
+                </div>
+                <div class="fortune-box fortune-box_short" v-else>
+                    <div class="fortune__arrow fortune__arrow_open" @click="toggleFortune(1)"></div>
+                    <div class="fortune__time-text">{{fortuneHour}} ч.</div>
+                </div>
+            </div>
+
+			<div class="top-panel" v-if="server">
+				<img class="top-panel__logo" width="40" height="40" src="images/logo.svg" alt="">
+				<div class="top-panel__right">
+					<div class="top-panel__server-name">Respawn RP</div>
+					<div class="top-panel__server-online">Онлайн: {{online}}/500</div>
+					<div class="top-panel__server-id">ID: {{playerId}}</div>
+				</div>
+			</div>
+
+			<div class="top-money" :style="{left: 'calc(' + minimapFix + '% + ' + '20px)'}">
+				<div class="top-money__row">
+					<svg class="top-money__icon" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M22 5H4C2.89543 5 2 5.89543 2 7V19C2 20.1046 2.89543 21 4 21H22C23.1046 21 24 20.1046 24 19V7C24 5.89543 23.1046 5 22 5Z" stroke="#27AE60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M2 11H24" stroke="#27AE60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					<div class="top-money__text">$ {{bank}}</div>
+				</div>
+				<div class="top-money__row">
+					<svg class="top-money__icon" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0)">
+							<path d="M25.0938 3.71777H0.929419C0.416107 3.71777 0 4.13388 0 4.64714V21.3764C0 21.8897 0.416107 22.3058 0.929419 22.3058H25.0938C25.6071 22.3058 26.0233 21.8897 26.0233 21.3764V4.64714C26.0233 4.13388 25.6071 3.71777 25.0938 3.71777ZM1.85878 5.57656H4.51504C4.17495 6.8771 3.15933 7.89273 1.85878 8.23281V5.57656ZM1.85878 20.447V17.7907C3.15933 18.1308 4.17495 19.1465 4.51504 20.4469H1.85878V20.447ZM24.1644 20.447H21.5082C21.8482 19.1465 22.8639 18.1308 24.1644 17.7908V20.447ZM24.1644 15.8836C21.8293 16.2827 20.0001 18.1118 19.6011 20.4469H6.42218C6.02312 18.1118 4.19396 16.2827 1.85884 15.8836V10.1399C4.19396 9.74078 6.02312 7.91168 6.42218 5.57656H19.6011C20.0001 7.91168 21.8293 9.74084 24.1644 10.1399V15.8836ZM24.1644 8.23281C22.8639 7.89273 21.8482 6.8771 21.5082 5.57656H24.1644V8.23281Z" fill="#28B664"/>
+							<path d="M13.0112 8.36469C10.4448 8.36469 8.36426 10.4452 8.36426 13.0117C8.36426 15.5781 10.4448 17.6587 13.0112 17.6587C15.5777 17.6587 17.6582 15.5781 17.6582 13.0117C17.6552 10.4465 15.5764 8.36773 13.0112 8.36469ZM13.0112 15.7999C11.4714 15.7999 10.223 14.5516 10.223 13.0117C10.223 11.4718 11.4714 10.2235 13.0112 10.2235C14.5511 10.2235 15.7994 11.4718 15.7994 13.0117C15.7994 14.5516 14.5511 15.7999 13.0112 15.7999Z" fill="#28B664"/>
+						</g>
+						<defs>
+							<clipPath id="clip0">
+								<rect width="26.0233" height="26.0233" fill="white"/>
+							</clipPath>
+						</defs>
+					</svg>
+					<div class="top-money__text">$ {{money}}</div>
+				</div>
+			</div>
+
+			<div class="help">
+				<div class="help__item">
+					<div class="help__key">a</div>
+					<div class="help__text">Обозначение</div>
+				</div>
+				<div class="help__item">
+					<div class="help__key">a</div>
+					<div class="help__text">Обозначение</div>
+				</div>
+				<div class="help__item">
+					<div class="help__key">a</div>
+					<div class="help__text">Обозначение</div>
+				</div>
+				<div class="help__item">
+					<div class="help__key">a</div>
+					<div class="help__text">Обозначение</div>
+				</div>
+			</div>
+
+			<div class="speedometer_hud" :style="{ opacity: inVeh ? 1 : 0 }">
+				<div class="speedcount" v-if="speed < 100"><a class="count">{{speed}}</a><p>км/ч</p></div>
+				<div class="speedcount" v-else-if="speed < 200"><a class="count" style="color:#eda123">{{speed}}</a><p>км/ч</p></div>
+				<div class="speedcount" v-else="speed < 300"><a class="count" style="color:red">{{speed}}</a><p>км/ч</p></div>
+				<div class="fuel"><a>{{fuel}} л.</a><img src="hud/fuel.svg" style="opacity:0.2" class="fuel_ico"></div>
+				
+				<div class="help_car">
+				<div v-if="engine" class="helps"><img src="hud/engine.png" class="icon_help"><p>B</p></div>
+				<div v-else class="helps"><img src="hud/engine.png" style="opacity:0.5;transition: all .33s;" class="icon_help"><p>B</p></div>
+				<div v-if="belt" class="helps"><img src="hud/belt.png" class="icon_help"><p>J</p></div>
+				<div v-else class="helps"><img src="hud/belt.png" style="opacity:0.5;transition: all .33s;" class="icon_help"><p>J</p></div>
+				<div v-if="doors" class="helps"><img src="hud/door.svg" class="icon_help"><p>L</p></div>
+				<div v-else class="helps"><img src="hud/door.svg" style="opacity:0.5;transition: all .33s;" class="icon_help"><p>L</p></div>
+				</div>
+			</div>
+
+			<div class="stats" :style="{left: 'calc(' + minimapFix + '% + ' + '20px)'}">
+				<div class="stats__stat">
+					<img src="images/restaurant.svg" alt="">
+					{{eat}}
+				</div>
+
+				<div class="stats__stat">
+					<img src="images/water.svg" alt="">
+					{{water}}
+				</div>
+
+				<div class="stats__stat">
+					<svg v-if="mic" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M18.5 1.54163C17.2734 1.54163 16.097 2.0289 15.2296 2.89626C14.3623 3.76361 13.875 4.94 13.875 6.16663V18.5C13.875 19.7266 14.3623 20.903 15.2296 21.7703C16.097 22.6377 17.2734 23.125 18.5 23.125C19.7266 23.125 20.903 22.6377 21.7704 21.7703C22.6377 20.903 23.125 19.7266 23.125 18.5V6.16663C23.125 4.94 22.6377 3.76361 21.7704 2.89626C20.903 2.0289 19.7266 1.54163 18.5 1.54163V1.54163Z" stroke="white" stroke-width="3.08333" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M29.2913 15.4166V18.5C29.2913 21.3621 28.1544 24.107 26.1305 26.1308C24.1067 28.1546 21.3618 29.2916 18.4997 29.2916C15.6375 29.2916 12.8926 28.1546 10.8688 26.1308C8.84498 24.107 7.70801 21.3621 7.70801 18.5V15.4166" stroke="white" stroke-width="3.08333" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M18.5 29.2916V35.4583" stroke="white" stroke-width="3.08333" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M12.333 35.4584H24.6663" stroke="white" stroke-width="3.08333" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</div>
+
+			</div>
+
+			<div class="gunshud" v-if="ammo">
+				<div class="patrons">
+					<div class="patronsblock">
+						<p id="patronnum">{{ammo}}</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="location" :style="{left: 'calc(' + minimapFix + '% + ' + '20px)'}">
+				<svg class="location__icon" width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="19.25" cy="19.75" r="19.25" fill="#166AE9"/>
+					<path d="M27.7302 18.0312C27.7302 24.537 19.3656 30.1134 19.3656 30.1134C19.3656 30.1134 11.001 24.537 11.001 18.0312C11.001 15.8128 11.8822 13.6852 13.4509 12.1166C15.0196 10.5479 17.1471 9.66663 19.3656 9.66663C21.584 9.66663 23.7116 10.5479 25.2802 12.1166C26.8489 13.6852 27.7302 15.8128 27.7302 18.0312Z" stroke="white" stroke-width="1.8588" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M19.3653 20.8193C20.9052 20.8193 22.1535 19.571 22.1535 18.0311C22.1535 16.4912 20.9052 15.2429 19.3653 15.2429C17.8255 15.2429 16.5771 16.4912 16.5771 18.0311C16.5771 19.571 17.8255 20.8193 19.3653 20.8193Z" stroke="white" stroke-width="1.8588" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				<div class="location__right">
+					<div class="location__crossingroad">{{crossingRoad}}</div>
+					<div class="location__street">{{street}}</div>
+				</div>
+			</div>
+
+			<div class="datetime">
+				<div class="datetime__row">
+					<svg class="datetime__icon" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M15.4997 24.5416C20.4932 24.5416 24.5413 20.4936 24.5413 15.5C24.5413 10.5064 20.4932 6.45831 15.4997 6.45831C10.5061 6.45831 6.45801 10.5064 6.45801 15.5C6.45801 20.4936 10.5061 24.5416 15.4997 24.5416Z" stroke="white" stroke-width="2.58333" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M15.5 11.625V15.5L17.4375 17.4375" stroke="white" stroke-width="2.58333" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					<div class="datetime__text">{{time}}</div>
+				</div>
+				<div class="datetime__row" style="position: relative; left: 4px">
+					<svg class="datetime__icon" style="margin-right: 4px;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M16 2V6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M8 2V6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M3 10H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					<div class="datetime__text">{{date}}</div>
+				</div>
+			</div>
+			
+		</div>
+            
+        <div id="chat" class="chat">
+            <ul id="chat_messages">
+
+			</ul>
+        </div>
+        
+        <div id="prompt" v-if="text">
+            <div class="text" v-html="text"></div>
+        </div>
+        <div id="notify">
+        </div>
+
+    <div id="effect"></div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/hud.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/noty.min.js"></script>
+    <script src="js/notify.js"></script>
+    <script src="https://kit.fontawesome.com/c552bfdf6a.js" crossorigin="anonymous"></script>
+	
+	
+
+
+    <script>
+        function hidehud(toggle) {
+            if (toggle) {
+                HUD.show = false;
+                // logotype.show = false;
+            } else {
+                HUD.show = true;
+                // logotype.show = true;
+            }
+        }
+        function hidehelp(toggle) {
+            if (toggle) {
+                $('.help').hide();
+            } else {
+                $('.help').show();
+            }
+        }
+		</script>
+
+    <script>function updateSafeZoneSize(screenWidht, screenHeight, safeZoneSize) {var savezoneDiv = document.getElementById("safezone");safeZoneSize = (((1.0 - safeZoneSize) * 0.5) * 100.0);savezoneDiv.style.right = savezoneDiv.style.left = ((screenWidht / 100) * safeZoneSize) + "px";savezoneDiv.style.top = savezoneDiv.style.bottom = ((screenHeight / 100) * safeZoneSize) + "px";return true;}</script>
+</body>
+</html>

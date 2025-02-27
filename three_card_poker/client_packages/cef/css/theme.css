@@ -1,0 +1,113 @@
+.noty_theme__fivestar.noty_bar {
+    overflow: hidden;
+    position: relative;
+    background: rgba(0, 0, 0, .1);
+    font-family: inherit;
+    font-weight: 500;
+    border-radius: 3px;
+    width: 40.296296296296294vh;
+    margin: 10px auto;
+    z-index: 99999;
+}
+/*.noty_theme__fivestar.noty_bar::before {*/
+/*  content: '';*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  position: absolute;*/
+/*  background-color: rgba(72, 85, 125, .44);*/
+/*  border-radius: 20px;*/
+/*  z-index: -100;*/
+/*}*/
+
+.text-border {
+    width: 2px;
+    border-left: 1px solid;
+    margin: 0 10px;
+    height: 3.9814814814814814vh;
+}
+
+.text-border.error {
+    border-color: #FF2E2E;
+}
+
+.text-border.alert,
+.text-border.information,
+.text-border.warning
+{
+    border-color: #FF641A;
+}
+
+.text-border.success {
+    border-color: #84FF9F;
+}
+
+.noty_theme__fivestar.noty_bar .noty_progressbar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    /*display: none;*/
+    background-color: #fff;
+    opacity: 0.8; }
+.noty_theme__fivestar.noty_bar .noty_body {
+    padding: 1vh;
+    font-size: 1.6666666666666665vh }
+.noty_theme__fivestar.noty_bar .noty_buttons {
+    padding: 0 10px .5em 10px; }
+
+.noty_theme__fivestar.noty_type__alert .text i,
+.noty_theme__fivestar.noty_type__notification .text i {
+    color: #fff; }
+
+.noty_theme__fivestar.noty_type__warning .text i {
+    color: #ff6a00; }
+
+.noty_theme__fivestar.noty_type__error .text i {
+    color: #e41005; }
+
+.noty_theme__fivestar.noty_type__info .text i,
+.noty_theme__fivestar.noty_type__information .text i {
+    color: #00aaff; }
+
+.noty_theme__fivestar.noty_type__success .text i {
+    color: #80ff00; }
+
+.text{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5vh;
+    font-weight: 400;
+}
+
+.text img {
+    max-width: 100%;
+    margin-right: 0.9259259259259258vh;
+}
+
+.text i{
+    float: left;
+    font-size: 34pt;
+    margin-right: 30px;
+}
+
+.noty__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+
+#noty_layout__bottomCenter, #noty_layout__topCenter{
+    width: 600px;
+}
+#noty_layout__topLeft, #noty_layout__topRight,
+#noty_layout__bottomLeft, #noty_layout__bottomRight,
+#noty_layout__centerLeft, #noty_layout__centerRight,
+#noty_layout__center{
+    width: 450px;
+    /*position: fixed;*/
+    /*z-index: 999999;*/
+}

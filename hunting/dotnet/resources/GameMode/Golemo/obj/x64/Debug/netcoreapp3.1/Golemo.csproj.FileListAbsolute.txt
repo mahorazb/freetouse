@@ -1,0 +1,11 @@
+C:\Users\icant\Desktop\golemo-mode-master\server\dotnet\resources\release\bin\netcoreapp3.1\Golemo.deps.json
+C:\Users\icant\Desktop\golemo-mode-master\server\dotnet\resources\release\bin\netcoreapp3.1\Golemo.dll
+C:\Users\icant\Desktop\golemo-mode-master\server\dotnet\resources\release\bin\netcoreapp3.1\Golemo.pdb
+C:\Users\icant\Desktop\golemo-mode-master\server\dotnet\resources\GameMode\Golemo\obj\x64\Debug\netcoreapp3.1\Golemo.csproj.AssemblyReference.cache
+C:\Users\icant\Desktop\golemo-mode-master\server\dotnet\resources\GameMode\Golemo\obj\x64\Debug\netcoreapp3.1\Golemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\icant\Desktop\golemo-mode-master\server\dotnet\resources\GameMode\Golemo\obj\x64\Debug\netcoreapp3.1\Golemo.AssemblyInfoInputs.cache
+C:\Users\icant\Desktop\golemo-mode-master\server\dotnet\resources\GameMode\Golemo\obj\x64\Debug\netcoreapp3.1\Golemo.AssemblyInfo.cs
+C:\Users\icant\Desktop\golemo-mode-master\server\dotnet\resources\GameMode\Golemo\obj\x64\Debug\netcoreapp3.1\Golemo.csproj.CoreCompileInputs.cache
+C:\Users\icant\Desktop\golemo-mode-master\server\dotnet\resources\GameMode\Golemo\obj\x64\Debug\netcoreapp3.1\Golemo.csproj.CopyComplete
+C:\Users\icant\Desktop\golemo-mode-master\server\dotnet\resources\GameMode\Golemo\obj\x64\Debug\netcoreapp3.1\Golemo.dll
+C:\Users\icant\Desktop\golemo-mode-master\server\dotnet\resources\GameMode\Golemo\obj\x64\Debug\netcoreapp3.1\Golemo.pdb

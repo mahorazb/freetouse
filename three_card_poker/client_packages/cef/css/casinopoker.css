@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+
+.casinop__main {
+    height: 100vh;
+    width: 100vw;
+   
+}
+.casinop {
+    
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif !important;
+    user-select: none;
+    background-image: url('../img/casino/replika.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 55.129629629629626vh;
+    height: 7.962962962962963vh;
+    border-radius: 1.111111111111111vh;
+}
+
+.casinop-active {
+   
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif !important;
+    user-select: none;
+    background-image: url('../img/casino/replika.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 55.129629629629626vh;
+    height: 7.962962962962963vh;
+    border-radius: 1.111111111111111vh;
+    box-shadow: greenyellow 0px 0px 80px;
+}
+
+.casinop * {
+    box-sizing: inherit;
+}
+
+
+.timer {
+    position: absolute;
+    top: 47vh;
+    font-size: 22px;
+    font-weight: bold;
+    left: 49.5vw;
+    color: #fff;
+}
+
+
+.player1 {
+    position: absolute;
+    bottom: 34vh;
+    left: 31.5vw;
+    color: #fff;
+}
+
+.player-block-active {
+    font-size: 16px;
+    text-align: center;
+    width: 14vw;
+    height: 2.5vh;
+    border: 3px solid greenyellow;
+    box-shadow: greenyellow 0px 0px 30px;
+    padding: 0.4vh 1vw;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: greenyellow;
+}
+
+.player-block-my {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 14vw;
+    height: 2.5vh;
+    border: 5px solid yellow;
+    box-shadow: yellow 0px 0px 30px;
+    padding: 0.4vh 1vw;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+}
+
+
+.player-block-winner {
+    font-size: 16px;
+    text-align: center;
+    width: 14vw;
+    height: 2.5vh;
+    border: 5px solid orange;
+    box-shadow: orange 0px 0px 50px;
+    padding: 0.4vh 1vw;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: orange;
+}
+
+
+.player-block-fold {
+    font-size: 16px;
+    text-align: center;
+    width: 14vw;
+    height: 2.5vh;
+    border: 3px solid black;
+    padding: 0.4vh 1vw;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+}
+
+
+.player-block {
+    font-size: 16px;
+    text-align: center;
+    width: 14vw;
+    height: 2.5vh;
+    border: 3px solid white;
+  
+    padding: 0.4vh 1vw;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+}
+
+
+.player-status {
+    padding-top: 10px;
+    padding-left: 3vh;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    width: 14vw;
+    height: 2.5vh;
+    color: yellow;
+    text-shadow: 0px 0px 4px black;
+}
+
+.player1-block{
+    position: absolute;
+    bottom: 12vh;
+    left: 2.5vw;
+}
+
+.player2-block{
+    position: absolute;
+    top: 8vh;
+    left: 2.5vw;
+}
+
+.player3-block{
+    position: absolute;
+    top: 6.0vh;
+    left: 42vw;
+}
+
+.player4-block{
+    position: absolute;
+    top: 8vh;
+    right: 2.5vw;
+}
+
+.player5-block{
+    position: absolute;
+    bottom: 13vh;
+    right: 2.5vw;
+}
+
+
+.player2 {
+    position: absolute;
+    top: 31vh;
+    left: 31.5vw;
+    color: #fff;
+}
+
+.player3 {
+    position: absolute;
+    left: 49vw;
+    top: 36vh;
+    color: #fff;
+}
+
+.my-bets {
+    position: absolute;
+    left: 49vw;
+    bottom: 33vh;
+    color: #fff;
+}
+
+.player4 {
+    position: absolute;
+    top: 32vh;
+    right: 32vw;
+    color: #fff;
+}
+
+.player5 {
+    position: absolute;
+    bottom: 34vh;
+    right: 32vw;
+    color: #fff;
+}
+
+.bank {
+    position: absolute;
+    left: 48vw;
+    top: 62vh;
+    color: #fff;
+    font-size: 22px;
+}
+
+.chip-img {
+   margin-right: 10px;
+}
+
+
+.casinop__right {
+    position: absolute;
+    right: 10%;
+    top: -1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.casinop__center {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.casinop__left {
+    width: 30.185185185185183vh;
+    position: absolute;
+    left: 0;
+    top: -1vh;
+}
+
+.casinop__top {
+    height: 7.62962962962963vh;
+    display: flex;
+    align-items: center;
+    padding: 0 2.2037037037037037vh;
+    border-radius: 2vh;
+}
+
+.casinop__right-bottom {
+    font-size: 1.6666666666666665vh;
+    color: #fff;
+    background: linear-gradient(141.21deg, rgba(26, 26, 26, 0.92) 22.28%, rgba(0, 14, 27, 0.88) 92.3%);
+    padding: 1vh 2vh;
+    border-radius: 0.8555555555555555vh;
+}
+
+.casinop__black-text {
+    color: #090909;
+    font-weight: bold;
+    font-size: 2.2666666666666665vh;
+}
+
+.casinop__bet {
+    width: 13.833333333333333vh;
+    height: 8.6925925925925926vh;
+    margin-right: 1vh;
+    background-image: url('../img/casino/border-grey-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: #E9CA05;
+    font-size: 2.2666666666666665vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.casinop__bet_chips {
+    background-image: url('../img/casino/chips-window.png');
+    padding-top: 2.7777777777777777vh;
+    width: 10.833333333333333vh;
+    font-size: 1.7666666666666665vh;
+}
+
+.casinop__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3vh;
+}
+
+.casinop__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.3962962962962963vh;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.casinop__btn_left {
+    background-image: url('../img/casino/left-btn.png');
+    width: 9.462962962962963vh;
+    height: 8.4074074074074074vh;
+    line-height: 2.4074074074074074vh;;
+    transform: translateX(0.37037037037037035vh);
+}
+
+.casinop__btn_center {
+    background-image: url('../img/casino/center-btn.png');
+    width: 10.111111111111111vh;
+    height: 7.0370370370370368vh;
+    line-height: 2.0370370370370368vh;
+}
+
+.casinop__btn_right {
+    background-image: url('../img/casino/right-btn.png');
+    width: 9.462962962962963vh;
+    height: 8.4074074074074074vh;
+    line-height: 2.4074074074074074vh;
+    transform: translateX(-0.37037037037037035vh);
+ }
+
+ 

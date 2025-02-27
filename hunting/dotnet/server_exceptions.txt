@@ -1,0 +1,1134 @@
+
+==================[20.01.2022 5:22:08]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:08]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:09]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:09]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:10]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:10]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:11]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:11]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:12]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:12]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:13]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:13]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:14]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:14]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:15]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:15]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:16]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:16]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:17]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:17]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:18]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:18]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:19]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:19]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:20]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:20]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:21]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:21]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:22]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:22]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:23]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:23]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:24]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:24]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:25]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:25]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:26]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:26]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:27]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:27]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:28]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:28]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:29]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:29]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:30]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:30]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:31]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:31]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:32]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:32]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:33]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:33]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:34]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:34]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:35]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:35]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:36]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:36]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:37]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:37]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:38]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:38]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:39]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:39]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:40]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:40]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:41]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:41]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:42]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:42]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:43]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:43]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:44]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:22:44]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:22:44]==================
+System.OperationCanceledException: The operation was canceled.
+   at void System.Threading.CancellationToken.ThrowOperationCanceledException()
+=================================
+==================[20.01.2022 5:23:35]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:23:35]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:10]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:10]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:11]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:11]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:12]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:12]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:13]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:13]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:14]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:14]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:15]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:15]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:16]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:16]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:17]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:17]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:18]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:18]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:19]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:19]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:20]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:20]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:21]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:21]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:22]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:22]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:23]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:23]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:24]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:24]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:25]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:25]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:26]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:26]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:27]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:27]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:28]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:28]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:29]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:29]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:30]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:30]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:31]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:31]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:32]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:32]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:33]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:33]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:34]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:34]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:35]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:35]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:36]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:36]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:37]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:37]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:38]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:38]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:39]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:39]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:40]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:40]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:41]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:41]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:42]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:42]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:43]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:43]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:44]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:44]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:45]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:45]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:46]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:46]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:47]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:47]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:48]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:48]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:49]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:49]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:50]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:50]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:51]==================
+System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+=========================================================
+
+==================[20.01.2022 5:24:51]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidCastException: Unable to cast object of type 'GTANetworkAPI.Ped' to type 'GTANetworkAPI.NetHandle'.
+   at void Golemo.Core.Hunting.UpdateAnimalPosition(Player player, params object[] arguments) in C:/Users/icant/Desktop/golemo-mode-master/server/dotnet/resources/GameMode/Golemo/Core/Hunting.cs:line 112
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[20.01.2022 5:24:51]==================
+System.OperationCanceledException: The operation was canceled.
+   at void System.Threading.CancellationToken.ThrowOperationCanceledException()
+=========================================================
+
+==================[20.01.2022 5:24:51]==================
+System.OperationCanceledException: The operation was canceled.
+   at void System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at async Task<bool> System

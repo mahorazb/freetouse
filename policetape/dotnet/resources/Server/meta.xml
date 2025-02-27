@@ -1,0 +1,7 @@
+<meta>
+    <!--Информация про ресурс-->
+    <info name="Server" description="Server description" />
+
+    <!--Путь к .dll файлу, который называется так же как и ваша папка-->
+    <script src="Server/bin/Release/netcoreapp3.1/Server.dll" />
+</meta>

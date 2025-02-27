@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <filter id="Контур_190" x="0" y="0" width="28" height="28" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="close_1_" data-name="close (1)" transform="translate(1.5 0.5)">
+    <g id="Сгруппировать_265" data-name="Сгруппировать 265">
+      <g transform="matrix(1, 0, 0, 1, -1.5, -0.5)" filter="url(#Контур_190)">
+        <path id="Контур_190-2" data-name="Контур 190" d="M12.5,0A12.5,12.5,0,1,0,25,12.5,12.514,12.514,0,0,0,12.5,0Zm5.056,16.083a.521.521,0,0,1,0,.737l-.736.736a.521.521,0,0,1-.737,0L12.5,13.973,8.917,17.556a.521.521,0,0,1-.737,0l-.736-.736a.521.521,0,0,1,0-.737L11.027,12.5,7.444,8.917a.521.521,0,0,1,0-.737l.736-.736a.521.521,0,0,1,.737,0L12.5,11.027l3.583-3.583a.521.521,0,0,1,.737,0l.736.736a.521.521,0,0,1,0,.737L13.973,12.5Z" transform="translate(1.5 0.5)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

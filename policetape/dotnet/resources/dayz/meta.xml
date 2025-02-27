@@ -1,0 +1,4 @@
+﻿<meta>
+  <info name="dayz" type="script"/>
+  <script src="bin/debug/netcoreapp3.1/dayz.dll"/>
+</meta>

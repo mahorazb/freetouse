@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+.casino {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Oswald', sans-serif !important;
+    user-select: none;
+    border-radius: 0.37037037037037035vh;
+    background-color: rgba(64, 64, 64, .78);
+    padding: 0.37037037037037035vh 0.37037037037037035vh 0.37037037037037035vh 0.8333333333333333vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.casino__col {
+    position: relative;
+    margin-right: 2.314814814814815vh;
+}
+
+.casino__col:last-child {
+    margin-right: 0;
+}
+
+.casino__title {
+    font-size: 1.6666666666666665vh;
+    color: #E7E7E7;
+    font-weight: 500;
+    margin-bottom: 1.8518518518518516vh;
+}
+
+.casino__input {
+    position: relative;
+    display: inline-block;
+    border-radius: 0.4629629629629629vh;
+    background-color: #888581;
+    font-weight: 500;
+    text-align: center;
+}
+
+.casino__input_accent-text {
+    color: #28B664;
+}
+
+.casino__input_default-text {
+    color: #E7E7E7;
+}
+
+.casino__input_bold-text {
+    font-weight: 700;
+}
+
+.casino__input_size_l {
+    font-size: 1.7037037037037037vh;
+    padding: 0.18518518518518517vh 1.6666666666666665vh;
+}
+
+.casino__input_size_m {
+    font-size: 1.1vh;
+    padding: 0.18518518518518517vh 1.1666666666666665vh;
+}
+
+.casino__input_theme_light {
+    border: 0.09259259259259259vh solid #E7E7E7;
+}
+
+.casino__input_theme_dark {
+    border: 0.09259259259259259vh solid #000;
+}
+
+.casino__info {
+    position: relative;
+    padding: 0.5555555555555555vh;
+    width: 13.574074074074073vh;
+    box-sizing: border-box;
+    border-radius: 0.37037037037037035vh;
+    background-color: rgba(22, 31, 38, .6);
+    color: #E7E7E7;
+    font-size: 1.2037037037037037vh;
+    font-weight: 700;
+    margin-bottom: 0.7407407407407407vh;
+    white-space: nowrap;
+}
+
+.casino__info:last-child {
+    margin-bottom: 0;
+}

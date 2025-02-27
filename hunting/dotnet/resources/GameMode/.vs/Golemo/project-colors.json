@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b9e0437c-01da-437e-9985-ca671e2dd30b": {
+      "ProjectGuid": "b9e0437c-01da-437e-9985-ca671e2dd30b",
+      "DisplayName": "Golemo",
+      "ColorIndex": 0
+    },
+    "f6462172-b5f6-4b4e-90fc-563615c27516": {
+      "ProjectGuid": "f6462172-b5f6-4b4e-90fc-563615c27516",
+      "DisplayName": "GolemoSDK",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,0 +1,89 @@
+найти
+
+  private static void playedMinutesTrigger()
+
+
+и после try {
+
+вставить
+
+  foreach(KeyValuePair<int, PoolTable> pair in Billiards.Tables)
+                {
+                    if(pair.Value.IsRent && pair.Value.RentTime <= DateTime.Now)
+                    {
+                        Billiards.QuitGame(pair.Value.Renter);
+                    }
+                }
+
+
+
+///////////////////////////////////////////////
+
+найти
+
+ [RemoteEvent("dialogCallback")]
+        public void RemoteEvent_DialogCallback(Player player, string callback, bool yes)
+        
+
+и в switch
+
+вставить
+
+   case "POOL_RENT":
+                            Billiards.AcceptRent(player, player.GetData<int>("POOL_RENT"));
+                            return;
+
+
+
+/////////////////////////////////////////////
+
+найти 
+
+[RemoteEvent("inputCallback")]
+        public void ClientEvent_inputCallback(Player player, params object[] arguments)
+
+и в конец вставить
+
+
+   case "player_invitepool":
+                        target = Main.GetPlayerByID(int.Parse(text));
+
+                        if (target == null || !Main.Players.ContainsKey(target))
+                        {
+                            Notify.Send(player, NotifyType.Error, NotifyPosition.BottomCenter, $"Игрок с таким ID не найден", 3000);
+                            return;
+                        }
+
+                        Billiards.InvitePlayerToTable(player, target);
+
+                        break;
+                    case "player_removepool":
+                        target = Main.GetPlayerByID(int.Parse(text));
+
+                        if (target == null || !Main.Players.ContainsKey(target))
+                        {
+                            Notify.Send(player, NotifyType.Error, NotifyPosition.BottomCenter, $"Игрок с таким ID не найден", 3000);
+                            return;
+                        }
+
+                        Billiards.RemovePlayerFromTable(player, target);
+                        break;
+
+///////////////////////////////////////////////
+
+
+найти 
+
+[RemoteEvent("interactionPressed")] 
+
+и после
+
+  case 101:
+                        Houses.AutoSelltoGov.OpenCarsSellMenu(player);
+                        return;
+
+вставить
+
+  case 1002:
+                        Billiards.TryRentPoolTable(player);
+                        return;

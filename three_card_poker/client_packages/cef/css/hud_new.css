@@ -1,0 +1,582 @@
+﻿	@media  (max-width: 1300px)  {
+		.inGameHud {zoom: 70%}
+	}
+	@media (min-width: 1301px) and (max-width: 1400px) {
+		.inGameHud {zoom: 80%}
+	}
+	@media (min-width: 1401px) and (max-width: 1650px) {
+		.inGameHud {zoom: 80%}
+	}
+	@media (min-width: 1651px) and (max-width: 2560px) {
+		.inGameHud {zoom: 100%}
+	}
+
+
+	body {
+		user-select: none;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		overflow: hidden;
+		margin: 0;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	#effect {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	#safezone {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.fade-enter-active, .fade-leave-active {
+	  transition: opacity .58s
+	}
+	.fade-enter, .fade-leave-to {
+	  opacity: 0
+	}
+
+	.inGameHud {
+		position: absolute;
+		margin: 0 auto;
+		line-height: normal;
+		color:#fff;
+		width: 100%;
+		height: 100%;
+        -webkit-animation-name: opacity, slide;
+        animation-name: opacity, slide;
+        -webkit-animation-duration: .5s, .5s;
+        animation-duration: .5s, .5s;
+        -webkit-animation-timing-function: ease, ease;
+        animation-timing-function: ease, ease;
+	}
+	.top-panel {
+		position: absolute;
+		background: rgba(64, 64, 64, .48);
+		/*background: yellow;*/
+		top: 34px;
+		right: 38px;
+		padding: 17px;
+		display: flex;
+		align-items: center;
+	}
+	.top-panel__logo {
+		margin-right: 50px;
+	}
+	.top-panel__server-name {
+		font-weight: bold;
+		font-size: 18.86px;
+		color: #FFFFFF;
+	}
+	.top-panel__server-online {
+		color: #fff;
+		font-size: 17.9px;
+		font-weight: 400;
+	}
+	.top-panel__right {
+
+	}
+
+	.top-money {
+		position: absolute;
+		bottom: 123px;
+	}
+
+	.top-money__icon {
+		margin-right: 10.8px;
+	}
+
+	.top-money__text {
+		color: #28B664;
+		font-weight: 500;
+		font-size: 21.69px;
+	}
+
+	.top-money__row {
+		display: flex;
+		margin-bottom: 10px;
+	}
+
+	.top-money__row:last-child {
+		margin-bottom: 0;
+	}
+
+	.help {
+		position: absolute;
+		right: 38px;
+		top: 393px;
+	}
+
+	.help__item {
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		margin-bottom: 11px;
+	}
+
+	.help__item:last-child {
+		margin-bottom: 0;
+	}
+
+	.help__key {
+		text-transform: uppercase;
+		background: rgba(90, 90, 90, .76);
+		font-size: 16.73px;
+		font-weight: bold;
+		color: #FFFFFF;
+		width: 26.48px;
+		height: 26.48px;
+		border-radius: 2.79px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 7px;
+	}
+
+	.help__text {
+		font-size: 16.73px;
+		font-weight: 500;
+		color: rgba(255, 255, 255, .76);
+	}
+
+	.location {
+		position: absolute;
+		bottom: 26px;
+		display: flex;
+		align-items: center;
+	}
+
+	.location__icon {
+		margin-right: 3.5px;
+	}
+
+	.location__crossingroad {
+		font-size: 15.75px;
+		color: #fff;
+		font-weight: 400;
+	}
+
+	.location__street {
+		color: #fff;
+		font-size: 19.83px;
+		font-weight: bold;
+	}
+
+
+	.stats {
+		position: absolute;
+		bottom: 78px;
+		display: flex;
+		align-items: center;
+		flex-wrap: nowrap;
+	}
+
+	.stats__stat {
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		margin-right: 10px;
+	}
+
+	.stats__stat img {
+		margin-right: 7px;
+	}
+
+	.datetime {
+		position: absolute;
+		left: 38px;
+		bottom: 248px;
+	}
+
+	.datetime__text {
+		color: #fff;
+		font-size: 23.23px;
+		font-weight: 500;
+	}
+
+	.datetime__row {
+		display: flex;
+		align-items: center;
+		margin-bottom: 6px;
+	}
+
+	.datetime__row:last-child {
+		margin-bottom: 0;
+	}
+		/*.inGameHud .header_hud{*/
+	/*	position: absolute;*/
+	/*	top: 3%;*/
+	/*	width: 90px;*/
+	/*	height: 80px;*/
+	/*	display: flex;*/
+	/*	font-size: 16px;*/
+	/*	right: 0%;*/
+	/*}*/
+	/*.inGameHud .header_hud .logo{*/
+	/*	opacity: 0.8;*/
+	/*	position: absolute;*/
+	/*}*/
+	/*.inGameHud .header_hud .online{*/
+	/*	position: relative;*/
+	/*	left: -35%;*/
+	/*	top: 15%;*/
+	/*}*/
+	/*.inGameHud .header_hud .id{*/
+	/*	position: relative;*/
+	/*	left: -120%;*/
+	/*	opacity: 0.5;*/
+	/*	top: 14%;*/
+	/*}*/
+	/*.inGameHud .header_hud .user{*/
+	/*	width: 51%;*/
+	/*	position: relative;*/
+	/*}*/
+	/*.inGameHud .header_hud .onlinecount{*/
+	/*	position: absolute;*/
+	/*	top: -1%;*/
+	/*	left: 62%;*/
+	/*	letter-spacing: 0.05em;*/
+	/*	color: #ffffffb8;*/
+	/*}*/
+	.inGameHud .money{
+		position: absolute;
+		top: 101px;
+		right: 59px;
+		height: 80px;
+		font-size: 25px;
+		color: #ffffffd4;
+	}
+	.inGameHud .money .ico{
+		width: 19px;
+		position: relative;
+		margin: -1px 0 0 7px;
+	}
+	
+	
+	.inGameHud .speedometer_hud{
+		position: absolute;
+		bottom: 1%;
+		right: 1%;
+	}
+	.inGameHud .speedometer_hud .speedcount{
+		position: relative;
+		color: #ffffff52;
+		display: flex;
+		justify-content: center;
+		width: 150%;
+		margin-left: -27px;
+		margin-bottom: 2%;
+	}
+	.inGameHud .speedometer_hud .speedcount .count{
+		font-size: 3em;
+		font-style: italic;
+		font-weight: 300;
+		color: white;
+		transition: all .73s;
+	}
+	.inGameHud .speedometer_hud .speedcount p{
+		position: absolute;
+		margin-top: -13px;
+		margin-left: 7px;
+		letter-spacing: 0.1em;
+		font-style: italic;
+		transition: all .33s;
+	}
+	.inGameHud .speedometer_hud .fuel{
+		margin-left: 57%;
+		margin-bottom: 11%;
+	}
+	.inGameHud .speedometer_hud .fuel a{
+		position: absolute;
+		margin-top: 4px;
+	}
+	.inGameHud .speedometer_hud .fuel .fuel_ico{
+		width: 28px;
+		opacity: 0.4;
+		margin-left: 50px;
+	}
+	.inGameHud .speedometer_hud .help_car{
+		display: flex;
+		right: 3%;
+	}
+	.inGameHud .speedometer_hud .help_car .helps{
+		display: flex;
+		margin-left: 13px;
+	}
+	.inGameHud .speedometer_hud .help_car .icon_help{
+		padding-right: 4px;
+		width: 27px;
+		height: 25px;
+		transition: all .33s;
+	}
+	.inGameHud .speedometer_hud .help_car p{
+		background: #6f6f6f78;
+		line-height: 1.7em;
+		width: 28px;
+		margin-left: 11px;
+		font-weight: 100;
+		font-size: 16px;
+		height: 25px;
+		text-align: center;
+		border-radius: 50%;
+	}
+	.inGameHud .steet_block{
+		position: absolute;
+		bottom: 1%;
+		/*left: 16%;*/
+		width: 150px;	
+	}
+	.inGameHud .steet_block .crossingroad{
+		color: #F44336;
+		letter-spacing: 0.03em;
+		font-size: 19px;
+		width: 500px;
+		font-weight: 100;
+		margin-bottom: 13px;
+	}
+	.inGameHud .steet_block .street{
+		margin-left: 12px;
+		width: 500px;
+		font-weight: 100;
+		margin-bottom: 33%;
+	}
+	.inGameHud .steet_block .street .marker{
+		width: 13px;
+		position: absolute;
+		margin-left: -13px;
+		margin-top: 3px;
+	}
+	.inGameHud .steet_block .info_table{
+		display:flex;
+	}
+	.inGameHud .steet_block .info_table .icon{
+		margin-bottom: -16px;
+		width: 20px;
+		margin-left: 3px;
+		transition: all .33s;
+		opacity: 0.6;
+	}
+	.inGameHud .steet_block .info_table p{
+		background: #6f6f6f75;
+		width: 30px;
+		padding: 1%;
+		line-height: 1.5em;
+		text-align: center;
+		margin-left: 13px;
+	}
+	.inGameHud .steet_block .info_table .activeP{
+		background: #ffff;
+		color:black;		
+		width: 30px;
+		padding: 1%;
+		line-height: 1.5em;
+		text-align: center;
+		margin-left: 13px;
+	}
+	.inGameHud .steet_block .info_table .info{
+		margin-left: 2%;
+	}
+	.inGameHud .stars{
+	    position: absolute;
+		top: 145px;
+		right: 59px;
+		display:flex
+	}
+	.inGameHud .stars .ico{
+		width: 25px;
+		height: 25px;
+		opacity: 0.4;
+		margin-left: 8px;
+	}
+	.inGameHud .info_table .eatings {
+		display: flex;
+		position: absolute;
+		margin-top: -34px;
+		margin-left: 7px;
+	}
+	.inGameHud .info_table .eatings .eat {
+		margin-right: 16px;
+	}
+	.inGameHud .info_table .eatings .icohud {
+		width: 1.3vh;
+	}
+	.inGameHud .info_table .eatings .waterhud {
+		width: 1.89vh;
+	}
+	.inGameHud .info_table .eatings a {
+		margin-left: 4px;
+		position: relative;
+		top: -0.6vh;
+		font-size: 1.8vh;
+	}
+	.gunshud {
+		width: 8.333333333333332vh;
+		height: 4.166666666666666vh;
+		background: rgba(90, 90, 90, .76);
+		position:absolute;
+		bottom: 25%;
+		right: 0;
+		z-index: 2;
+		font-size: 1.6666666666666665vh;
+		overflow: hidden;
+		border-top-left-radius: 0.5555555555555555vh;
+		border-bottom-left-radius: 0.5555555555555555vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+	}
+/* Система бонусов */
+.bonus {
+    position: absolute;
+    top: 136px;
+    right: 38px;
+    z-index: 999;
+	border-radius: 3px;
+}
+.bonus-bar {
+	background: rgba(64, 64, 64, .48);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: gray;
+    font-size: 1.5em;
+	border-radius: 3px;
+}
+
+
+
+.bonus-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: auto;
+	background: rgba(64, 64, 64, .48);
+	border-radius: 3px;
+}
+.bonus-block header {
+    flex: 40%;
+    width: 100%;
+	background: rgba(64, 64, 64, .48);
+    padding: 7px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	border-radius: 3px;
+}
+.bonus-block header .fa-times {
+    color: #ab2b2b;
+}
+.bonus-block .main {
+    flex: 60%;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+}
+.bonus-block .main p {
+    padding: 10px 30px;
+    text-align: center;
+	background: rgba(64, 64, 64, .48);
+    box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 1);
+}
+
+	
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+.fortune {
+	position: absolute;
+	top: 300px;
+	right: 15px;
+	font-family: 'Oswald', sans-serif !important;
+}
+
+.fortune__title {
+	font-weight: bold;
+	font-size: 19px;
+	transform: rotate(2deg);
+}
+
+.fortune-box{
+	position: relative;
+	box-sizing: border-box;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.fortune-box_long {
+	background-image: url(../images/fortune-bg.png);
+
+	width: 316px;
+	height: 64px;
+	padding-top: 10px;
+}
+
+.fortune-box_short{
+	background-image: url(../images/fortune-bg-short.png);
+
+	padding-top: 5px;
+	width: 35px;
+	height: 34px;
+}
+
+.fortune__time {
+	width: 88.87px;
+	height: 33.27px;
+
+	background-image: url(../images/fortune-time-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+
+	transform: translateY(10px);
+
+}
+
+.fortune__time-text {
+	font-size: 12px;
+	font-weight: 400;
+	color: #E9CA05;
+	white-space: nowrap;
+}
+
+.fortune__arrow {
+	width: 22px;
+	height: 22px;
+
+	background-image: url(../images/fortune-arrow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+
+.fortune__arrow_open {
+	transform: translate(-80%, -50%) rotate(180deg);
+}

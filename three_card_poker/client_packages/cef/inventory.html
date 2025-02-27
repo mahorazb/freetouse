@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+	<meta charset="UTF-8">
+	<title>City-rp.com - Board</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+	<link rel="stylesheet" href="css/inventory.css">
+	<link rel="stylesheet" href="css/new-fonts.css">
+
+	<style>
+		*, *::before, *::after {
+			box-sizing: border-box;
+		}
+
+		html {
+			box-sizing: inherit;
+			font-size: 16px;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			user-select: none;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			font-weight: 400;
+			color: #fff;
+			box-sizing: inherit;
+		}
+
+		ul {
+			padding: 0;
+			margin: 0;
+		}
+
+		li {
+			list-style: none;
+		}
+	</style>
+</head>
+<!--style="display: none"-->
+<body style="display: none">
+
+
+<!-- ADAPTIVE -->
+<nav class="context_menu" v-if="active" :style="style">
+	<ul class="context_menu-list">
+		<li class="context_menu-list-item" v-if="type" @click="btn(1)">Использовать</li>
+		<li class="context_menu-list-item" v-if="itemCount > 1" @click="separator">Разделить</li>
+		<li class="context_menu-list-item" v-if="type" @click="btn(4)">Выбросить</li>
+	</ul>
+</nav>
+
+<!-- ADAPTIVE -->
+<div class="separator" v-if="active">
+	<div class="separator-header">
+		<div class="separator-title">Разделитель</div>
+	</div>
+	<div class="separator-content">
+		<div class="separator-content-body">
+			<label class="separate-field-label" for="separate-field">Введите количество:</label>
+			<input v-model="input" type="number" :max="maxVal" id="separate-field">
+			<div class="separator-btns">
+				<button class="separator-btn" @click="sepOne">1</button>
+				<button class="separator-btn" @click="sepHalf">1/2</button>
+				<button class="separator-btn" @click="sepAll">all</button>
+			</div>
+			<div class="separator-actions">
+				<button class="separator-action separator-action__blue" @click="split(5)">Разделить</button>
+				<button class="separator-action separator-action__grey" @click="close">Отмена</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ADAPTIVE -->
+<div
+		class="board player-inventory animate__animated"
+		v-if="active"
+		@click.right.prevent="context"
+		@click="hide"
+>
+	<div class="b-header">
+		<div class="b-header-title" v-if="outside && !trade">
+			{{outHead}}
+		</div>
+		<div class="b-header-title" v-else-if="!outside && trade">
+			Обмен с {{outHead}}
+		</div>
+		<div class="b-header-title" v-else>
+			Инвентарь
+		</div>
+		<div class="b-header-close">
+			<div class="icon" @click="hideA">
+				<img src="images/inventory/icons/close_1.svg" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="b-content-wrap">
+		<div class="b-content b-content-stuff" v-if="!outside && !trade">
+			<div class="b-stuff-wrap">
+				<div class="b-stuff">
+					<div class="b-stuff-content">
+						<div class="b-stuff-item b-stuff-item__small droppable" data-type="tInv" id="-13" :key="tkey">
+							<b-item-stuff
+									:id="tItems[12][0]"
+									:index="12"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/glasses.svg'"
+							></b-item-stuff>
+						</div>
+						<div class="b-stuff-item b-stuff-item__small droppable" data-type="tInv" id="-11" :key="tkey">
+							<b-item-stuff
+									:id="tItems[10][0]"
+									:index="10"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/hoodie.svg'"
+							></b-item-stuff>
+						</div>
+						<div class="b-stuff-item b-stuff-item__small droppable" data-type="tInv" id="-7" :key="tkey">
+							<b-item-stuff
+									:id="tItems[6][0]"
+									:index="6"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/medal-necklace.svg'"
+							></b-item-stuff>
+						</div>
+						<div class="b-stuff-item b-stuff-item__small droppable" data-type="tInv" id="-3" :key="tkey">
+							<b-item-stuff
+									:id="tItems[2][0]"
+									:index="2"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/pair-of-gloves.svg'"
+							></b-item-stuff>
+						</div>
+					</div>
+					<div class="b-stuff-content">
+						<div class="b-stuff-item b-stuff-item__medium droppable" data-type="tInv" id="-12" :key="tkey">
+							<b-item-stuff
+									:id="tItems[11][0]"
+									:index="11"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/hat.svg'"
+							></b-item-stuff>
+						</div>
+						<div class="b-stuff-item b-stuff-item__large droppable" data-type="tInv" id="-8" :key="tkey">
+							<b-item-stuff
+									:id="tItems[7][0]"
+									:index="7"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/casual-t-shirt-.svg'"
+							></b-item-stuff>
+						</div>
+						<div class="b-stuff-item b-stuff-item__large droppable" data-type="tInv" id="-4" :key="tkey">
+							<b-item-stuff
+									:id="tItems[3][0]"
+									:index="3"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/trousers.svg'"
+							></b-item-stuff>
+						</div>
+						<div class="b-stuff-item b-stuff-item__medium droppable" data-type="tInv" id="-6" :key="tkey">
+							<b-item-stuff
+									:id="tItems[5][0]"
+									:index="5"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/men-shoe.svg'"
+							></b-item-stuff>
+						</div>
+					</div>
+					<div class="b-stuff-content">
+						<div class="b-stuff-item b-stuff-item__small droppable" data-type="tInv" id="-1" :key="tkey">
+							<b-item-stuff
+									:id="tItems[0][0]"
+									:index="0"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/comedy.svg'"
+							></b-item-stuff>
+						</div>
+						<div class="b-stuff-item b-stuff-item__small droppable" data-type="tInv" id="-9" :key="tkey">
+							<b-item-stuff
+									:id="tItems[8][0]"
+									:index="8"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/armor.svg'"
+							></b-item-stuff>
+						</div>
+						<div class="b-stuff-item b-stuff-item__small droppable" data-type="tInv" id="-14" :key="tkey">
+							<b-item-stuff
+									:id="tItems[13][0]"
+									:index="13"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/watch.svg'"
+							></b-item-stuff>
+						</div>
+						<div class="b-stuff-item b-stuff-item__small droppable" data-type="tInv" id="-15" :key="tkey">
+							<b-item-stuff
+									:id="tItems[14][0]"
+									:index="14"
+									:type="'tInv'"
+									:srcelse="'images/inventory/icons/phone.svg'"
+							></b-item-stuff>
+						</div>
+					</div>
+				</div>
+				<div class="b-needs">
+					<div class="b-need">
+						<div class="b-need-text b-need-text__blue">Жажда: {{thirst}}%</div>
+						<progress :value="thirst" max="100" class="b-need-progress b-need-progress__blue"></progress>
+					</div>
+					<div class="b-need">
+						<div class="b-need-text b-need-text__green">Сытость: {{hunger}}%</div>
+						<progress :value="hunger" max="100" class="b-need-progress b-need-progress__green"></progress>
+					</div>
+<!--					<div class="b-need">-->
+<!--						<div class="b-need-text b-need-text__pink">Настроение: {{mood}}%</div>-->
+<!--						<progress :value="mood" max="100" class="b-need-progress b-need-progress__pink"></progress>-->
+<!--					</div>-->
+				</div>
+			</div>
+		</div>
+		<div class="b-content b-content-items">
+			<div class="b-content-items-wrap">
+				<div id="board-1" class="b-items">
+					<b-item-wrap
+							v-for="(item, index) in items"
+							:id="index"
+							:item="item"
+							:key="key"
+							:type="'inv'"
+							data-type="inv"
+					></b-item-wrap>
+				</div>
+				<div class="b-progress">
+					<progress max="15" :value="(+getTotalWeight).toFixed(2)" class="b-items-progress"></progress>
+					<span class="b-progress-text">{{(+getTotalWeight).toFixed(2)}} из 15кг</span>
+				</div>
+				<div class="b-bag">
+					<div class="b-items-row">
+						<div class="b-item-wrap">
+							<img style="width: 6vh" src="images/inventory/icons/1.svg" alt="">
+						</div>
+						<div class="b-item-wrap non-active">
+
+						</div>
+						<div class="b-item-wrap non-active">
+
+						</div>
+						<div class="b-item-wrap non-active">
+
+						</div>
+						<div class="b-item-wrap non-active">
+
+						</div>
+					</div>
+					<div class="b-items-row">
+						<div class="b-item-wrap non-active">
+
+						</div>
+						<div class="b-item-wrap non-active">
+
+						</div>
+						<div class="b-item-wrap non-active">
+
+						</div>
+						<div class="b-item-wrap non-active">
+
+						</div>
+						<div class="b-item-wrap non-active">
+
+						</div>
+					</div>
+				</div>
+				<div class="b-progress">
+					<progress max="25" value="0" class="b-items-progress"></progress>
+					<span class="b-progress-text">0 из 25кг</span>
+				</div>
+			</div>
+		</div>
+		<div class="b-content b-content-weapons" v-if="!outside && !trade">
+			<div class="b-weapons-wrap">
+				<div class="b-weapons">
+					<div class="b-weapons-row">
+						<div class="b-weapon droppable" data-type="wInv" id="0" :key="wkey">
+							<b-item-weapon
+									:id="wItems[0][0]"
+									:index="0"
+									:type="'wInv'"
+							></b-item-weapon>
+							<div class="b-weapon-hot-key">1</div>
+						</div>
+						<div class="b-weapon droppable" data-type="wInv" id="1" :key="wkey">
+							<b-item-weapon
+									:id="wItems[1][0]"
+									:index="1"
+									:type="'wInv'"
+							></b-item-weapon>
+							<div class="b-weapon-hot-key">2</div>
+						</div>
+						<div class="b-weapon droppable" data-type="wInv" id="2" :key="wkey">
+							<b-item-weapon
+									:id="wItems[2][0]"
+									:index="2"
+									:type="'wInv'"
+							></b-item-weapon>
+							<div class="b-weapon-hot-key">3</div>
+						</div>
+					</div>
+<!--					<div class="b-weapons-row">-->
+<!--						<div class="b-weapon droppable" data-type="dInv" id="3" :key="wkey">-->
+<!--							<div class="b-weapon-hot-key">4</div>-->
+<!--						</div>-->
+<!--						<div class="b-weapon droppable" data-type="dInv" id="4" :key="wkey">-->
+<!--							<div class="b-weapon-hot-key">5</div>-->
+<!--						</div>-->
+<!--						<div class="b-weapon droppable" data-type="dInv" id="5" :key="wkey">-->
+<!--							<div class="b-weapon-hot-key">6</div>-->
+<!--						</div>-->
+<!--					</div>-->
+				</div>
+<!--				<div class="b-stats">-->
+<!--					<div class="b-stat">-->
+<!--						<div class="b-stat-text">-->
+<!--							Выносливость:-->
+<!--						</div>-->
+<!--						<div class="b-stat-progress">-->
+<!--							<div v-for="(fd) in 5" :class="{'active': fd <= skills[0]}"></div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="b-stat">-->
+<!--						<div class="b-stat-text">-->
+<!--							Сила:-->
+<!--						</div>-->
+<!--						<div class="b-stat-progress">-->
+<!--							<div v-for="(fd) in 5" :class="{'active': fd <= skills[1]}"></div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="b-stat">-->
+<!--						<div class="b-stat-text">-->
+<!--							Вождение:-->
+<!--						</div>-->
+<!--						<div class="b-stat-progress">-->
+<!--							<div v-for="(fd) in 5" :class="{'active': fd <= skills[2]}"></div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="b-stat">-->
+<!--						<div class="b-stat-text">-->
+<!--							Психика:-->
+<!--						</div>-->
+<!--						<div class="b-stat-progress">-->
+<!--							<div v-for="(fd) in 5" :class="{'active': fd <= skills[3]}"></div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="b-stat">-->
+<!--						<div class="b-stat-text">-->
+<!--							Стрельба:-->
+<!--						</div>-->
+<!--						<div class="b-stat-progress">-->
+<!--							<div v-for="(fd) in 5" :class="{'active': fd <= skills[4]}"></div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+			</div>
+		</div>
+		<div class="outside" v-if="outside">
+			<div class="b-content b-content-items">
+				<div class="b-content-items-wrap">
+					<div
+							class="b-items"
+							style="max-height: 48.24074074074074vh; height: 48.24074074074074vh;"
+							id="board-2"
+					>
+						<b-item-wrap
+								v-for="(item, index) in outitems"
+								:id="index"
+								:key="key"
+								:item="item"
+								data-type="out"
+						></b-item-wrap>
+					</div>
+					<div class="b-progress b-progress-outside" v-if="outType == 2">
+						<progress max="140" :value="(+getTotalWeightOut).toFixed(2)" class="b-items-progress"></progress>
+						<span class="b-progress-text">{{(+getTotalWeightOut).toFixed(2)}} из 140кг</span>
+					</div>
+					<div class="b-progress b-progress-outside" v-else>
+						<progress max="1000" :value="(+getTotalWeightOut).toFixed(2)" class="b-items-progress"></progress>
+						<span class="b-progress-text">{{(+getTotalWeightOut).toFixed(2)}} из 1000кг</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="trade" v-if="trade && !outside">
+			<div class="b-content b-content-trade">
+				<div class="trade-items">
+					<div class="trade-items-wrap">
+						<span>Вы отдаете:</span>
+						<div class="trade-items-content">
+							<b-item-wrap
+									v-if="!checked"
+									v-for="(item, index) in outitems[0]"
+									:id="index"
+									:item="item"
+									:key="tkey"
+									:type="'tradeInv'"
+									class="b-item--trade"
+									data-type="tradeInv"
+							></b-item-wrap>
+							<b-item-wrap-na
+									v-if="checked"
+									v-for="(item, index) in outitems[0]"
+									:id="index"
+									:item="item"
+									:key="tkey"
+							></b-item-wrap-na>
+						</div>
+						<div class="trade-items-info">
+							<span>Наличные:</span>
+							<div>
+								<input v-model="tradeCash" :disabled="checked" type="number" value="0" min="0" step="100" max="1000000" class="trade-money trade--green" onkeyup="this.value = this.value.length > this.max.length ? this.max : this.value">
+								<span>/ <span class="trade--green">{{maxCash}}$</span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="trade-items">
+					<div class="trade-items-wrap">
+						<span>Вы получаете:</span>
+						<div class="trade-items-content">
+							<b-item-wrap-na
+									v-for="(item, index) in outitems[1]"
+									:id="index"
+									:item="item"
+									:key="tkey"
+							></b-item-wrap-na>
+						</div>
+						<div class="trade-items-info">
+							<span>Наличные: <span class="trade--green">{{moneyFrom}}$</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="trade-btns">
+					<div class="trade-input-group">
+						<button class="trade-btn trade-btn--success"
+								:disabled="!tradeReady"
+								@click="tradeAccept">{{tradeMessage ? tradeMessage : 'Подтвердить'}}</button>
+						<button class="trade-btn trade-btn--cancel" @click="tradeCancel">Отказаться</button>
+					</div>
+					<div class="trade-input-group" v-if="!tradeReady">
+						<div class="trade-radio" @click="tradeCheck">
+							<div class="trade-radio-inner" v-if="checked"></div>
+						</div>
+						<span>Готов к обмену</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+
+<script src='js/vue.js'></script>
+<script src='js/inventory.js'></script>
+<script src="js/move.min.js"></script>
+<script>
+	window.onload = function() {
+		document.getElementsByTagName('body')[0].style.display = "block";
+		document.onmousemove = inventory.onMouseMove;
+		document.onmouseup = inventory.onMouseUp;
+		document.onmousedown = inventory.onMouseDown;
+	}
+</script>
+</html>
